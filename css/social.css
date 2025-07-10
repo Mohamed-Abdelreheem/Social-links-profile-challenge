@@ -1,0 +1,75 @@
+/* Global Styling */
+:root{
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+}
+*{
+  font-family: inter;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: var(--Grey900);
+}
+/* Start Page Style */
+.container{
+  width: 30%;
+  margin: 80px auto;
+  background-color: var(--Grey800);
+  text-align: center;
+  border-radius: 10px;
+}
+@media(max-width: 375px){
+  .container{
+    width: 90%;
+    margin-top: 200px;
+  }
+}
+.container .img{
+  width: 100px;
+  margin: 20px auto;
+}
+.container .img img{
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: 40px ;
+}
+.container h1{
+  color: var(--White);
+  text-transform: capitalize;
+}
+.container p:first-of-type{
+  color: var(--Green);
+  text-transform: capitalize;
+  margin-top: -15px;
+}
+.container p:last-of-type{
+  color: var(--White);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.container a{
+  display: block;
+  margin: 15px;
+}
+.container a button{
+  background-color: var(--Grey700);
+  color: var(--White);
+  border: none;
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.container a button.active{
+  background-color: var(--Green);
+  color: black;
+}
+.container a:last-of-type button{
+  margin-bottom: 40px;
+}
+
+/* End Page Style */
