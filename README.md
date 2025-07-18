@@ -25,7 +25,7 @@ This is social page contains GitHub, Frontend Mentor, Linkedin, Twitter, Instagr
 ### Links
 
 - Solution URL: (https://github.com/Mohamed-Abdelreheem/Recipe-page)
-- Live Site URL: (http://127.0.0.1:5500/index.html)
+- Live Site URL: (https://mohamed-abdelreheem.github.io/Social-links-profile-challenge/)
 
 
 ### Built with
